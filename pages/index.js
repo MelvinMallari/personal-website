@@ -73,7 +73,7 @@ export default function Home() {
 
         a:hover {
           color: #337ab7;
-          border-bottom: 1px solid #555;
+          border-bottom: 1px solid #337ab7;
         }
 
         * {
