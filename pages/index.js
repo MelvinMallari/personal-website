@@ -18,8 +18,8 @@ export default function Home() {
           <a href="https://www.withkindred.com/">kindred</a>.{' '}
         </p>
         <p>
-          in the past i studied mechanical engineering and designed mechanical
-          systems ⚙.
+          in the past, i've studied mechanical engineering and designed
+          mechanical systems.
         </p>
         <p>my current side project: 🔧 wrenching on a 1995 e36 m3.</p>
         <p>
