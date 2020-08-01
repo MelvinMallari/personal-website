@@ -14,7 +14,9 @@ export default function Projects() {
 
       <main className="container">
         <div className="project">
-          <img src="/green-arrow.gif" className="img" alt="" />
+          <div>
+            <img src="/green-arrow.gif" className="img" alt="" />
+          </div>
           <ul className="list-first-level">
             <li>green arrow</li>
             <li>
@@ -46,7 +48,9 @@ export default function Projects() {
         </div>
 
         <div className="project">
-          <img src="/CookieMon.gif" className="second img" alt="" />
+          <div>
+            <img src="/CookieMon.gif" className="second img" alt="" />
+          </div>
           <ul className="list-first-level">
             <li>cookie-mon</li>
             <li>
@@ -74,7 +78,9 @@ export default function Projects() {
         </div>
 
         <div className="project">
-          <img src="/sweet_thumbnail.png" className="second img" alt="" />
+          <div>
+            <img src="/sweet_thumbnail.png" className="second img" alt="" />
+          </div>
           <ul className="list-first-level">
             <li>cookie-mon</li>
             <li>
@@ -131,7 +137,6 @@ export default function Projects() {
         .img {
           width: 650px;
           height: auto;
-          min-height: 431px;
         }
 
         .text-container {
