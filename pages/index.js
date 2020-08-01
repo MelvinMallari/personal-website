@@ -9,13 +9,14 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
           rel="stylesheet"
         />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <p>
-          👋🏽 my name is melvin. i'm a software engineer working on{' '}
-          <a href="https://www.withkindred.com/">kindred</a>.{' '}
+          👋🏽&nbsp;my name is melvin. i'm a software engineer working on{' '}
+          <a href="https://www.withkindred.com/">kindred</a>.
         </p>
         <p>
           in the past, i've studied mechanical engineering and designed
@@ -31,6 +32,9 @@ export default function Home() {
         </p>
         <p>melvintmallari@gmail.com</p>
         <p>
+          <a href="/projects">projects</a>
+        </p>
+        <p>
           <a href="https://github.com/MelvinMallari">github</a>
         </p>
         <p>
@@ -44,14 +48,6 @@ export default function Home() {
         main {
           padding: 50px 65px;
         }
-
-        .no-list-style {
-          list-style-type: none;
-        }
-
-        .no-list-item-style {
-          display: inline;
-        }
       `}</style>
 
       <style jsx global>{`
@@ -60,15 +56,15 @@ export default function Home() {
           padding: 0;
           margin: 0;
           font-family: 'PT Sans', sans-serif;
-          color: #454545;
+          color: #333;
           -webkit-font-smoothing: antialiased;
           font-size: 15px;
         }
 
         a {
-          color: #adcae6;
+          color: #99bde0;
           text-decoration: none;
-          border-bottom: 1px solid #adcae6;
+          border-bottom: 1px solid #99bde0;
         }
 
         a:hover {
