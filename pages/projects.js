@@ -82,7 +82,7 @@ export default function Projects() {
             <img src="/sweet_thumbnail.png" className="second img" alt="" />
           </div>
           <ul className="list-first-level">
-            <li>cookie-mon</li>
+            <li>sweet analytics</li>
             <li>
               <p>
                 a portmanteau of sentiment tweet analytics. sweet Analytics was
@@ -119,6 +119,14 @@ export default function Projects() {
       </main>
 
       <style jsx>{`
+        ul {
+          padding-top: 16px;
+        }
+
+        p {
+          margin: 5px 0;
+        }
+
         .project:not(:first-of-type) {
           margin: 24px 0;
         }
