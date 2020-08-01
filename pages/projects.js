@@ -119,10 +119,6 @@ export default function Projects() {
       </main>
 
       <style jsx>{`
-        ul {
-          padding-top: 16px;
-        }
-
         p {
           margin: 5px 0;
         }
@@ -132,6 +128,7 @@ export default function Projects() {
         }
 
         .list-first-level {
+          padding-top: 16px;
           padding-left: 0;
           max-width: 550px;
           margin: 0 auto;
