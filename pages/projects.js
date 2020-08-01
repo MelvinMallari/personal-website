@@ -131,6 +131,7 @@ export default function Projects() {
         .img {
           width: 650px;
           height: auto;
+          min-height: 431px;
         }
 
         .text-container {
