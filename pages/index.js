@@ -15,7 +15,7 @@ export default function Home() {
 
       <main>
         <p>
-          👋🏽&nbsp;my name is melvin. i'm a software engineer working on{' '}
+          👋🏽&nbsp;my name is melvin. i'm a software engineer working on
           <a href="https://www.withkindred.com/">kindred</a>.
         </p>
         <p>
@@ -24,7 +24,7 @@ export default function Home() {
         </p>
         <p>my current side project: 🔧 wrenching on a 1995 e36 m3.</p>
         <p>
-          chat with me about{' '}
+          chat with me about
           <a href="https://www.notion.so/872c49c4fb664add9b27e47b106aec79?v=30808d0d621e4620a679e4e6f748006d">
             reading
           </a>

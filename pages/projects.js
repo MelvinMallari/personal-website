@@ -130,24 +130,20 @@ export default function Projects() {
         .list-first-level {
           padding-top: 16px;
           padding-left: 0;
-          max-width: 550px;
           margin: 0 auto;
         }
 
         .container {
-          max-width: 650px;
           margin: 0 auto;
         }
 
         .img-wrapper {
-          padding-bottom: 430px;
           background: #eee;
           height: 0;
           position: relative;
         }
 
         .img {
-          width: 650px;
           height: auto;
           display: block;
           position: absolute;
@@ -162,6 +158,44 @@ export default function Projects() {
           border-bottom: none;
           padding: 50px 0 0 65px;
           display: inline-block;
+        }
+
+        @media (min-width: 320px) {
+          /* smartphones, iPhone, portrait 480x320 phones */
+          .list-first-level {
+            max-width: 320px;
+          }
+
+          .container {
+            max-width: 320px;
+          }
+
+          .img-wrapper {
+            padding-bottom: 213px;
+          }
+
+          .img {
+            width: 320px;
+          }
+        }
+
+        @media (min-width: 641px) {
+          /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+          .list-first-level {
+            max-width: 550px;
+          }
+
+          .container {
+            max-width: 650px;
+          }
+
+          .img-wrapper {
+            padding-bottom: 430px;
+          }
+
+          .img {
+            width: 650px;
+          }
         }
       `}</style>
 
